@@ -7,6 +7,8 @@ public class Main {
         factory.generateDeficiencies();
 
         System.out.println(factory.magnesiumDeficiency.getSolution());
+        // nog even checken of dit werkt.
+        System.out.println(factory.getIronDeficiency.getSolution());
     }
 }
 

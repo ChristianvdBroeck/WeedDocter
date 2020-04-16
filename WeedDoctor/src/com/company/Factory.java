@@ -14,6 +14,9 @@ public class Factory {
     public Deficiency molybdenumDeficiency;
     public Deficiency ironDeficiency;
 
+    public Deficiency getIronDeficiency() {
+        return ironDeficiency;
+    }
 
     public void generateDeficiencies() {
         // wat als een deficiency meerdere symptomen heeft?
